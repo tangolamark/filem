@@ -1,6 +1,6 @@
 #include <sys/types.h>
 #include "datacopy.h"
-
+// test 
 void sig_winch(int signo){
   struct winsize size;
   ioctl(fileno(stdout), TIOCGWINSZ, (char*)&size);
